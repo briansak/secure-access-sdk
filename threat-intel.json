@@ -1,0 +1,146 @@
+{
+  "threatIntelligence": {
+    "feedName": "Expanded Sample Threat Feed",
+    "feedDescription": "This is an expanded sample threat intelligence feed including 15 pseudorandom domains and IPs for import testing.",
+    "feedVersion": "1.1",
+    "lastUpdated": "2026-01-07T00:00:00Z",
+    "indicators": [
+      {
+        "type": "ip",
+        "value": "192.0.2.1",
+        "confidence": "high",
+        "description": "Known malicious IP address",
+        "firstSeen": "2025-12-01T12:00:00Z",
+        "lastSeen": "2026-01-05T12:00:00Z",
+        "source": "Sample Source"
+      },
+      {
+        "type": "domain",
+        "value": "malicious-example.com",
+        "confidence": "medium",
+        "description": "Domain associated with phishing campaigns",
+        "firstSeen": "2025-11-15T08:30:00Z",
+        "lastSeen": "2026-01-06T09:00:00Z",
+        "source": "Sample Source"
+      },
+      {
+        "type": "file_hash",
+        "value": "d41d8cd98f00b204e9800998ecf8427e",
+        "hashType": "md5",
+        "confidence": "high",
+        "description": "Malware sample hash",
+        "firstSeen": "2025-12-20T14:00:00Z",
+        "lastSeen": "2026-01-04T16:00:00Z",
+        "source": "Sample Source"
+      },
+      {
+        "type": "ip",
+        "value": "198.51.100.23",
+        "confidence": "medium",
+        "description": "Suspicious IP address",
+        "firstSeen": "2025-12-10T10:00:00Z",
+        "lastSeen": "2026-01-03T11:00:00Z",
+        "source": "Sample Source"
+      },
+      {
+        "type": "ip",
+        "value": "203.0.113.45",
+        "confidence": "low",
+        "description": "Potentially malicious IP",
+        "firstSeen": "2025-11-25T09:00:00Z",
+        "lastSeen": "2026-01-02T08:00:00Z",
+        "source": "Sample Source"
+      },
+      {
+        "type": "domain",
+        "value": "phishing-site.net",
+        "confidence": "high",
+        "description": "Phishing domain",
+        "firstSeen": "2025-12-05T07:30:00Z",
+        "lastSeen": "2026-01-05T07:30:00Z",
+        "source": "Sample Source"
+      },
+      {
+        "type": "domain",
+        "value": "badactor.org",
+        "confidence": "medium",
+        "description": "Domain linked to malware distribution",
+        "firstSeen": "2025-11-20T06:00:00Z",
+        "lastSeen": "2026-01-01T06:00:00Z",
+        "source": "Sample Source"
+      },
+      {
+        "type": "ip",
+        "value": "192.0.2.99",
+        "confidence": "high",
+        "description": "Command and Control server IP",
+        "firstSeen": "2025-12-15T05:00:00Z",
+        "lastSeen": "2026-01-06T05:00:00Z",
+        "source": "Sample Source"
+      },
+      {
+        "type": "domain",
+        "value": "malware-download.com",
+        "confidence": "high",
+        "description": "Malware hosting domain",
+        "firstSeen": "2025-12-18T04:00:00Z",
+        "lastSeen": "2026-01-04T04:00:00Z",
+        "source": "Sample Source"
+      },
+      {
+        "type": "ip",
+        "value": "198.51.100.77",
+        "confidence": "medium",
+        "description": "Botnet IP address",
+        "firstSeen": "2025-12-22T03:00:00Z",
+        "lastSeen": "2026-01-05T03:00:00Z",
+        "source": "Sample Source"
+      },
+      {
+        "type": "domain",
+        "value": "suspicious-domain.info",
+        "confidence": "low",
+        "description": "Suspicious domain",
+        "firstSeen": "2025-11-30T02:00:00Z",
+        "lastSeen": "2026-01-03T02:00:00Z",
+        "source": "Sample Source"
+      },
+      {
+        "type": "ip",
+        "value": "203.0.113.88",
+        "confidence": "medium",
+        "description": "Potential phishing IP",
+        "firstSeen": "2025-12-25T01:00:00Z",
+        "lastSeen": "2026-01-06T01:00:00Z",
+        "source": "Sample Source"
+      },
+      {
+        "type": "domain",
+        "value": "dangerous-site.biz",
+        "confidence": "high",
+        "description": "Site hosting exploit kits",
+        "firstSeen": "2025-12-28T00:00:00Z",
+        "lastSeen": "2026-01-05T00:00:00Z",
+        "source": "Sample Source"
+      },
+      {
+        "type": "ip",
+        "value": "192.0.2.150",
+        "confidence": "medium",
+        "description": "Suspicious activity detected",
+        "firstSeen": "2025-12-30T23:00:00Z",
+        "lastSeen": "2026-01-06T23:00:00Z",
+        "source": "Sample Source"
+      },
+      {
+        "type": "domain",
+        "value": "fake-login.net",
+        "confidence": "high",
+        "description": "Fake login page domain",
+        "firstSeen": "2025-12-31T22:00:00Z",
+        "lastSeen": "2026-01-06T22:00:00Z",
+        "source": "Sample Source"
+      }
+    ]
+  }
+}
