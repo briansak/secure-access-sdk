@@ -141,6 +141,728 @@
         "lastSeen": "2026-01-06T22:00:00Z",
         "source": "Sample Source"
       }
+      [
+  {
+    "type": "domain",
+    "value": "malware-deploy.darknetops.ru",
+    "confidence": "high",
+    "description": "Known distribution point for Emotet malware variants",
+    "firstseen": "2026-03-28",
+    "lastseen": "2026-05-17",
+    "source": "internal_research"
+  },
+  {
+    "type": "ipv4",
+    "value": "198.51.100.47",
+    "confidence": "high",
+    "description": "C2 server associated with Cobalt Strike beacon activity",
+    "firstseen": "2026-04-12",
+    "lastseen": "2026-05-18",
+    "source": "soc_analysis"
+  },
+  {
+    "type": "domain",
+    "value": "login-microsoftonline.secure-verify.xyz",
+    "confidence": "high",
+    "description": "Credential harvesting site impersonating Microsoft 365 login",
+    "firstseen": "2026-05-01",
+    "lastseen": "2026-05-19",
+    "source": "threat_exchange"
+  },
+  {
+    "type": "url",
+    "value": "http://cdn-update.supplychain-attack.net/payload.exe",
+    "confidence": "high",
+    "description": "Trojanized software update package delivering RAT payload",
+    "firstseen": "2026-04-05",
+    "lastseen": "2026-05-16",
+    "source": "internal_research"
+  },
+  {
+    "type": "ipv4",
+    "value": "203.0.113.88",
+    "confidence": "medium",
+    "description": "Mining pool proxy used by unauthorized cryptominers on compromised hosts",
+    "firstseen": "2026-04-20",
+    "lastseen": "2026-05-15",
+    "source": "network_monitoring"
+  },
+  {
+    "type": "domain",
+    "value": "exfil-data.shadowbroker.cc",
+    "confidence": "high",
+    "description": "Data exfiltration endpoint used by APT group tracked as ShadowViper",
+    "firstseen": "2026-05-10",
+    "lastseen": "2026-05-20",
+    "source": "internal_research"
+  },
+  {
+    "type": "url",
+    "value": "http://phish-kit.fraudbank.com/chase/login.html",
+    "confidence": "high",
+    "description": "Phishing kit targeting Chase Bank customers for credential theft",
+    "firstseen": "2026-04-18",
+    "lastseen": "2026-05-14",
+    "source": "threat_exchange"
+  },
+  {
+    "type": "ipv4",
+    "value": "45.155.205.19",
+    "confidence": "medium",
+    "description": "Hosting infrastructure for QakBot malware distribution",
+    "firstseen": "2026-03-15",
+    "lastseen": "2026-05-13",
+    "source": "soc_analysis"
+  },
+  {
+    "type": "domain",
+    "value": "tracker.ransompay.onion.ws",
+    "confidence": "high",
+    "description": "Ransomware payment portal associated with LockBit 4.0 operations",
+    "firstseen": "2026-05-02",
+    "lastseen": "2026-05-18",
+    "source": "internal_research"
+  },
+  {
+    "type": "url",
+    "value": "http://js-inject.skimmergroup.net/magecart.js",
+    "confidence": "high",
+    "description": "JavaScript skimmer injected into compromised e-commerce checkout pages",
+    "firstseen": "2026-04-08",
+    "lastseen": "2026-05-12",
+    "source": "soc_analysis"
+  },
+  {
+    "type": "ipv4",
+    "value": "185.220.101.34",
+    "confidence": "medium",
+    "description": "Tor exit node frequently relaying botnet command and control traffic",
+    "firstseen": "2026-02-22",
+    "lastseen": "2026-05-11",
+    "source": "network_monitoring"
+  },
+  {
+    "type": "domain",
+    "value": "update-service.abortsignal.dev",
+    "confidence": "high",
+    "description": "DNS tunneling C2 channel used by DarkGate malware family",
+    "firstseen": "2026-05-05",
+    "lastseen": "2026-05-19",
+    "source": "internal_research"
+  },
+  {
+    "type": "url",
+    "value": "http://dropper.infectedcdn.com/stage2.dll",
+    "confidence": "high",
+    "description": "Second-stage DLL loader for IcedID banking trojan",
+    "firstseen": "2026-04-02",
+    "lastseen": "2026-05-10",
+    "source": "threat_exchange"
+  },
+  {
+    "type": "ipv4",
+    "value": "91.215.85.102",
+    "confidence": "high",
+    "description": "Fast-flux hosting node delivering Vidar stealer payloads",
+    "firstseen": "2026-04-30",
+    "lastseen": "2026-05-17",
+    "source": "internal_research"
+  },
+  {
+    "type": "domain",
+    "value": "account-verify.paypal-security-team.com",
+    "confidence": "high",
+    "description": "Phishing domain spoofing PayPal account verification workflow",
+    "firstseen": "2026-04-14",
+    "lastseen": "2026-05-16",
+    "source": "soc_analysis"
+  },
+  {
+    "type": "url",
+    "value": "http://cryptomine.hashpool.workers.dev/miner.wasm",
+    "confidence": "medium",
+    "description": "WebAssembly-based browser cryptominer delivered via compromised sites",
+    "firstseen": "2026-03-20",
+    "lastseen": "2026-05-09",
+    "source": "network_monitoring"
+  },
+  {
+    "type": "ipv4",
+    "value": "77.91.124.55",
+    "confidence": "high",
+    "description": "RedLine Stealer C2 panel accepting exfiltrated browser credentials",
+    "firstseen": "2026-05-08",
+    "lastseen": "2026-05-20",
+    "source": "internal_research"
+  },
+  {
+    "type": "domain",
+    "value": "sslvpn-gateway.corpaccess-secure.net",
+    "confidence": "medium",
+    "description": "Fake corporate VPN portal used in spear-phishing targeting enterprises",
+    "firstseen": "2026-04-22",
+    "lastseen": "2026-05-15",
+    "source": "soc_analysis"
+  },
+  {
+    "type": "url",
+    "value": "http://botnet.loader-service.ru/gate.php",
+    "confidence": "high",
+    "description": "Botnet gate URL receiving check-in traffic from Amadey loader infections",
+    "firstseen": "2026-04-01",
+    "lastseen": "2026-05-14",
+    "source": "internal_research"
+  },
+  {
+    "type": "ipv4",
+    "value": "162.245.191.217",
+    "confidence": "medium",
+    "description": "Bulletproof hosting IP serving AsyncRAT implants to victims",
+    "firstseen": "2026-03-30",
+    "lastseen": "2026-05-13",
+    "source": "threat_exchange"
+  },
+  {
+    "type": "domain",
+    "value": "dns-beacon.covertchannel.io",
+    "confidence": "high",
+    "description": "DNS-over-HTTPS covert C2 channel for targeted intrusion implants",
+    "firstseen": "2026-05-06",
+    "lastseen": "2026-05-18",
+    "source": "internal_research"
+  },
+  {
+    "type": "url",
+    "value": "http://fake-update.browseralert.xyz/chrome-update.exe",
+    "confidence": "high",
+    "description": "SocGholish fake browser update page delivering NetSupport RAT",
+    "firstseen": "2026-04-25",
+    "lastseen": "2026-05-12",
+    "source": "soc_analysis"
+  },
+  {
+    "type": "ipv4",
+    "value": "23.106.215.78",
+    "confidence": "low",
+    "description": "Stratum mining protocol traffic from compromised cloud workloads",
+    "firstseen": "2026-03-10",
+    "lastseen": "2026-05-08",
+    "source": "network_monitoring"
+  },
+  {
+    "type": "domain",
+    "value": "webmail-outlook.abortsignal.support",
+    "confidence": "high",
+    "description": "Adversary-in-the-middle phishing proxy stealing Outlook session tokens",
+    "firstseen": "2026-05-09",
+    "lastseen": "2026-05-19",
+    "source": "soc_analysis"
+  },
+  {
+    "type": "url",
+    "value": "http://malspam-attach.threatdrop.net/invoice_05_2026.iso",
+    "confidence": "high",
+    "description": "ISO file distributed via malspam containing BumbleBee loader",
+    "firstseen": "2026-04-28",
+    "lastseen": "2026-05-11",
+    "source": "internal_research"
+  },
+  {
+    "type": "ipv4",
+    "value": "194.26.29.113",
+    "confidence": "high",
+    "description": "Sliver C2 framework server abused by threat actor for persistent access",
+    "firstseen": "2026-05-03",
+    "lastseen": "2026-05-17",
+    "source": "internal_research"
+  },
+  {
+    "type": "domain",
+    "value": "api-telemetry.spycloud-exfil.com",
+    "confidence": "medium",
+    "description": "Exfiltration domain disguised as telemetry API used by infostealer malware",
+    "firstseen": "2026-04-11",
+    "lastseen": "2026-05-16",
+    "source": "threat_exchange"
+  },
+  {
+    "type": "url",
+    "value": "http://exploit-kit.landingzone.cc/ek/gate",
+    "confidence": "high",
+    "description": "Exploit kit landing page delivering drive-by downloads via browser vulns",
+    "firstseen": "2026-03-25",
+    "lastseen": "2026-05-10",
+    "source": "soc_analysis"
+  },
+  {
+    "type": "ipv4",
+    "value": "5.188.86.214",
+    "confidence": "high",
+    "description": "Hosting server for Raccoon Stealer v2 panel and payload delivery",
+    "firstseen": "2026-04-16",
+    "lastseen": "2026-05-15",
+    "source": "internal_research"
+  },
+  {
+    "type": "domain",
+    "value": "sharepoint-doc-review.onedrive-verify.net",
+    "confidence": "high",
+    "description": "Credential phishing page mimicking SharePoint document sharing notification",
+    "firstseen": "2026-05-12",
+    "lastseen": "2026-05-20",
+    "source": "soc_analysis"
+  },
+  {
+    "type": "url",
+    "value": "http://supply-chain.npm-analytics.io/postinstall.sh",
+    "confidence": "medium",
+    "description": "Malicious post-install script from typosquatted npm package",
+    "firstseen": "2026-04-07",
+    "lastseen": "2026-05-09",
+    "source": "threat_exchange"
+  },
+  {
+    "type": "ipv4",
+    "value": "103.138.72.90",
+    "confidence": "medium",
+    "description": "Mythic C2 framework endpoint used in targeted attack against financial sector",
+    "firstseen": "2026-04-19",
+    "lastseen": "2026-05-14",
+    "source": "internal_research"
+  },
+  {
+    "type": "domain",
+    "value": "zero-day-patch.windows-update-kb.com",
+    "confidence": "high",
+    "description": "Social engineering domain distributing fake Windows patches with backdoor",
+    "firstseen": "2026-05-04",
+    "lastseen": "2026-05-18",
+    "source": "soc_analysis"
+  },
+  {
+    "type": "url",
+    "value": "http://stealer-panel.redteam-tools.ru/collect",
+    "confidence": "high",
+    "description": "Collection endpoint for Lumma Stealer exfiltrating credentials and crypto wallets",
+    "firstseen": "2026-04-26",
+    "lastseen": "2026-05-13",
+    "source": "internal_research"
+  },
+  {
+    "type": "ipv4",
+    "value": "141.98.11.43",
+    "confidence": "high",
+    "description": "IP serving Remcos RAT payload via weaponized Office documents",
+    "firstseen": "2026-05-07",
+    "lastseen": "2026-05-19",
+    "source": "threat_exchange"
+  },
+  {
+    "type": "domain",
+    "value": "mfa-reset.okta-helpdesk-support.com",
+    "confidence": "high",
+    "description": "Spear-phishing domain impersonating Okta MFA reset targeting IT admins",
+    "firstseen": "2026-05-11",
+    "lastseen": "2026-05-17",
+    "source": "soc_analysis"
+  },
+  {
+    "type": "url",
+    "value": "http://wasm-miner.coinhive-revival.net/worker.js",
+    "confidence": "medium",
+    "description": "JavaScript cryptocurrency miner injected via compromised WordPress plugins",
+    "firstseen": "2026-03-05",
+    "lastseen": "2026-05-07",
+    "source": "network_monitoring"
+  },
+  {
+    "type": "ipv4",
+    "value": "89.44.9.167",
+    "confidence": "high",
+    "description": "Brute Ratel C4 server communicating with implants via encrypted channels",
+    "firstseen": "2026-05-01",
+    "lastseen": "2026-05-16",
+    "source": "internal_research"
+  },
+  {
+    "type": "domain",
+    "value": "auth-sso.cisco-webex-verify.com",
+    "confidence": "high",
+    "description": "Phishing domain targeting Cisco Webex SSO credentials via fake meeting invite",
+    "firstseen": "2026-05-14",
+    "lastseen": "2026-05-20",
+    "source": "soc_analysis"
+  },
+  {
+    "type": "url",
+    "value": "http://dga-domain.fastflux-network.top/beacon",
+    "confidence": "medium",
+    "description": "DGA-generated fallback C2 used by TrickBot successor malware family",
+    "firstseen": "2026-03-18",
+    "lastseen": "2026-05-11",
+    "source": "threat_exchange"
+  },
+  {
+      "type": "ip",
+      "value": "198.51.100.47",
+      "confidence": "high",
+      "description": "C2 server associated with Cobalt Strike beacon activity",
+      "firstseen": "2026-04-12",
+      "lastseen": "2026-05-18",
+      "source": "internal_research"
+    },
+    {
+      "type": "domain",
+      "value": "malware-deploy.darknetops.ru",
+      "confidence": "high",
+      "description": "Known distribution point for Emotet malware variants",
+      "firstseen": "2026-03-28",
+      "lastseen": "2026-05-17",
+      "source": "soc_analysis"
+    },
+    {
+      "type": "domain",
+      "value": "login-microsoftonline.secure-verify.xyz",
+      "confidence": "high",
+      "description": "Credential harvesting site impersonating Microsoft 365 login",
+      "firstseen": "2026-05-01",
+      "lastseen": "2026-05-19",
+      "source": "threat_exchange"
+    },
+    {
+      "type": "url",
+      "value": "http://cdn-update.supplychain-attack.net/payload.exe",
+      "confidence": "high",
+      "description": "Trojanized software update package delivering RAT payload",
+      "firstseen": "2026-04-05",
+      "lastseen": "2026-05-16",
+      "source": "internal_research"
+    },
+    {
+      "type": "ip",
+      "value": "203.0.113.88",
+      "confidence": "medium",
+      "description": "Mining pool proxy used by unauthorized cryptominers on compromised hosts",
+      "firstseen": "2026-04-20",
+      "lastseen": "2026-05-15",
+      "source": "network_monitoring"
+    },
+    {
+      "type": "domain",
+      "value": "exfil-data.shadowbroker.cc",
+      "confidence": "high",
+      "description": "Data exfiltration endpoint used by APT group tracked as ShadowViper",
+      "firstseen": "2026-05-10",
+      "lastseen": "2026-05-20",
+      "source": "internal_research"
+    },
+    {
+      "type": "url",
+      "value": "http://phish-kit.fraudbank.com/chase/login.html",
+      "confidence": "high",
+      "description": "Phishing kit targeting Chase Bank customers for credential theft",
+      "firstseen": "2026-04-18",
+      "lastseen": "2026-05-14",
+      "source": "threat_exchange"
+    },
+    {
+      "type": "ip",
+      "value": "45.155.205.19",
+      "confidence": "medium",
+      "description": "Hosting infrastructure for QakBot malware distribution",
+      "firstseen": "2026-03-15",
+      "lastseen": "2026-05-13",
+      "source": "soc_analysis"
+    },
+    {
+      "type": "domain",
+      "value": "tracker.ransompay.onion.ws",
+      "confidence": "high",
+      "description": "Ransomware payment portal associated with LockBit 4.0 operations",
+      "firstseen": "2026-05-02",
+      "lastseen": "2026-05-18",
+      "source": "internal_research"
+    },
+    {
+      "type": "url",
+      "value": "http://js-inject.skimmergroup.net/magecart.js",
+      "confidence": "high",
+      "description": "JavaScript skimmer injected into compromised e-commerce checkout pages",
+      "firstseen": "2026-04-08",
+      "lastseen": "2026-05-12",
+      "source": "soc_analysis"
+    },
+    {
+      "type": "ip",
+      "value": "185.220.101.34",
+      "confidence": "medium",
+      "description": "Tor exit node frequently relaying botnet command and control traffic",
+      "firstseen": "2026-02-22",
+      "lastseen": "2026-05-11",
+      "source": "network_monitoring"
+    },
+    {
+      "type": "domain",
+      "value": "update-service.abortsignal.dev",
+      "confidence": "high",
+      "description": "DNS tunneling C2 channel used by DarkGate malware family",
+      "firstseen": "2026-05-05",
+      "lastseen": "2026-05-19",
+      "source": "internal_research"
+    },
+    {
+      "type": "url",
+      "value": "http://dropper.infectedcdn.com/stage2.dll",
+      "confidence": "high",
+      "description": "Second-stage DLL loader for IcedID banking trojan",
+      "firstseen": "2026-04-02",
+      "lastseen": "2026-05-10",
+      "source": "threat_exchange"
+    },
+    {
+      "type": "ip",
+      "value": "91.215.85.102",
+      "confidence": "high",
+      "description": "Fast-flux hosting node delivering Vidar stealer payloads",
+      "firstseen": "2026-04-30",
+      "lastseen": "2026-05-17",
+      "source": "internal_research"
+    },
+    {
+      "type": "domain",
+      "value": "account-verify.paypal-security-team.com",
+      "confidence": "high",
+      "description": "Phishing domain spoofing PayPal account verification workflow",
+      "firstseen": "2026-04-14",
+      "lastseen": "2026-05-16",
+      "source": "soc_analysis"
+    },
+    {
+      "type": "url",
+      "value": "http://cryptomine.hashpool.workers.dev/miner.wasm",
+      "confidence": "medium",
+      "description": "WebAssembly-based browser cryptominer delivered via compromised sites",
+      "firstseen": "2026-03-20",
+      "lastseen": "2026-05-09",
+      "source": "network_monitoring"
+    },
+    {
+      "type": "ip",
+      "value": "77.91.124.55",
+      "confidence": "high",
+      "description": "RedLine Stealer C2 panel accepting exfiltrated browser credentials",
+      "firstseen": "2026-05-08",
+      "lastseen": "2026-05-20",
+      "source": "internal_research"
+    },
+    {
+      "type": "domain",
+      "value": "sslvpn-gateway.corpaccess-secure.net",
+      "confidence": "medium",
+      "description": "Fake corporate VPN portal used in spear-phishing targeting enterprises",
+      "firstseen": "2026-04-22",
+      "lastseen": "2026-05-15",
+      "source": "soc_analysis"
+    },
+    {
+      "type": "url",
+      "value": "http://botnet.loader-service.ru/gate.php",
+      "confidence": "high",
+      "description": "Botnet gate URL receiving check-in traffic from Amadey loader infections",
+      "firstseen": "2026-04-01",
+      "lastseen": "2026-05-14",
+      "source": "internal_research"
+    },
+    {
+      "type": "ip",
+      "value": "162.245.191.217",
+      "confidence": "medium",
+      "description": "Bulletproof hosting IP serving AsyncRAT implants to victims",
+      "firstseen": "2026-03-30",
+      "lastseen": "2026-05-13",
+      "source": "threat_exchange"
+    },
+    {
+      "type": "domain",
+      "value": "dns-beacon.covertchannel.io",
+      "confidence": "high",
+      "description": "DNS-over-HTTPS covert C2 channel for targeted intrusion implants",
+      "firstseen": "2026-05-06",
+      "lastseen": "2026-05-18",
+      "source": "internal_research"
+    },
+    {
+      "type": "url",
+      "value": "http://fake-update.browseralert.xyz/chrome-update.exe",
+      "confidence": "high",
+      "description": "SocGholish fake browser update page delivering NetSupport RAT",
+      "firstseen": "2026-04-25",
+      "lastseen": "2026-05-12",
+      "source": "soc_analysis"
+    },
+    {
+      "type": "ip",
+      "value": "23.106.215.78",
+      "confidence": "low",
+      "description": "Stratum mining protocol traffic from compromised cloud workloads",
+      "firstseen": "2026-03-10",
+      "lastseen": "2026-05-08",
+      "source": "network_monitoring"
+    },
+    {
+      "type": "domain",
+      "value": "webmail-outlook.abortsignal.support",
+      "confidence": "high",
+      "description": "Adversary-in-the-middle phishing proxy stealing Outlook session tokens",
+      "firstseen": "2026-05-09",
+      "lastseen": "2026-05-19",
+      "source": "soc_analysis"
+    },
+    {
+      "type": "url",
+      "value": "http://malspam-attach.threatdrop.net/invoice_05_2026.iso",
+      "confidence": "high",
+      "description": "ISO file distributed via malspam containing BumbleBee loader",
+      "firstseen": "2026-04-28",
+      "lastseen": "2026-05-11",
+      "source": "internal_research"
+    },
+    {
+      "type": "ip",
+      "value": "194.26.29.113",
+      "confidence": "high",
+      "description": "Sliver C2 framework server abused by threat actor for persistent access",
+      "firstseen": "2026-05-03",
+      "lastseen": "2026-05-17",
+      "source": "internal_research"
+    },
+    {
+      "type": "domain",
+      "value": "api-telemetry.spycloud-exfil.com",
+      "confidence": "medium",
+      "description": "Exfiltration domain disguised as telemetry API used by infostealer malware",
+      "firstseen": "2026-04-11",
+      "lastseen": "2026-05-16",
+      "source": "threat_exchange"
+    },
+    {
+      "type": "url",
+      "value": "http://exploit-kit.landingzone.cc/ek/gate",
+      "confidence": "high",
+      "description": "Exploit kit landing page delivering drive-by downloads via browser vulns",
+      "firstseen": "2026-03-25",
+      "lastseen": "2026-05-10",
+      "source": "soc_analysis"
+    },
+    {
+      "type": "ip",
+      "value": "5.188.86.214",
+      "confidence": "high",
+      "description": "Hosting server for Raccoon Stealer v2 panel and payload delivery",
+      "firstseen": "2026-04-16",
+      "lastseen": "2026-05-15",
+      "source": "internal_research"
+    },
+    {
+      "type": "domain",
+      "value": "sharepoint-doc-review.onedrive-verify.net",
+      "confidence": "high",
+      "description": "Credential phishing page mimicking SharePoint document sharing notification",
+      "firstseen": "2026-05-12",
+      "lastseen": "2026-05-20",
+      "source": "soc_analysis"
+    },
+    {
+      "type": "url",
+      "value": "http://supply-chain.npm-analytics.io/postinstall.sh",
+      "confidence": "medium",
+      "description": "Malicious post-install script from typosquatted npm package",
+      "firstseen": "2026-04-07",
+      "lastseen": "2026-05-09",
+      "source": "threat_exchange"
+    },
+    {
+      "type": "ip",
+      "value": "103.138.72.90",
+      "confidence": "medium",
+      "description": "Mythic C2 framework endpoint used in targeted attack against financial sector",
+      "firstseen": "2026-04-19",
+      "lastseen": "2026-05-14",
+      "source": "internal_research"
+    },
+    {
+      "type": "domain",
+      "value": "zero-day-patch.windows-update-kb.com",
+      "confidence": "high",
+      "description": "Social engineering domain distributing fake Windows patches with backdoor",
+      "firstseen": "2026-05-04",
+      "lastseen": "2026-05-18",
+      "source": "soc_analysis"
+    },
+    {
+      "type": "url",
+      "value": "http://stealer-panel.redteam-tools.ru/collect",
+      "confidence": "high",
+      "description": "Collection endpoint for Lumma Stealer exfiltrating credentials and crypto wallets",
+      "firstseen": "2026-04-26",
+      "lastseen": "2026-05-13",
+      "source": "internal_research"
+    },
+    {
+      "type": "ip",
+      "value": "141.98.11.43",
+      "confidence": "high",
+      "description": "IP serving Remcos RAT payload via weaponized Office documents",
+      "firstseen": "2026-05-07",
+      "lastseen": "2026-05-19",
+      "source": "threat_exchange"
+    },
+    {
+      "type": "domain",
+      "value": "mfa-reset.okta-helpdesk-support.com",
+      "confidence": "high",
+      "description": "Spear-phishing domain impersonating Okta MFA reset targeting IT admins",
+      "firstseen": "2026-05-11",
+      "lastseen": "2026-05-17",
+      "source": "soc_analysis"
+    },
+    {
+      "type": "url",
+      "value": "http://wasm-miner.coinhive-revival.net/worker.js",
+      "confidence": "medium",
+      "description": "JavaScript cryptocurrency miner injected via compromised WordPress plugins",
+      "firstseen": "2026-03-05",
+      "lastseen": "2026-05-07",
+      "source": "network_monitoring"
+    },
+    {
+      "type": "ip",
+      "value": "89.44.9.167",
+      "confidence": "high",
+      "description": "Brute Ratel C4 server communicating with implants via encrypted channels",
+      "firstseen": "2026-05-01",
+      "lastseen": "2026-05-16",
+      "source": "internal_research"
+    },
+    {
+      "type": "domain",
+      "value": "auth-sso.cisco-webex-verify.com",
+      "confidence": "high",
+      "description": "Phishing domain targeting Cisco Webex SSO credentials via fake meeting invite",
+      "firstseen": "2026-05-14",
+      "lastseen": "2026-05-20",
+      "source": "soc_analysis"
+    },
+    {
+      "type": "url",
+      "value": "http://dga-domain.fastflux-network.top/beacon",
+      "confidence": "medium",
+      "description": "DGA-generated fallback C2 used by TrickBot successor malware family",
+      "firstseen": "2026-03-18",
+      "lastseen": "2026-05-11",
+      "source": "threat_exchange"
+    }
+]
     ]
   }
 }
