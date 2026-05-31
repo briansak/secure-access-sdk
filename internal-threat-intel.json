@@ -454,6 +454,51 @@
         "firstseen": "2024-01-18",
         "lastseen": "2024-03-11",
         "source": "dns_monitoring"
+      },
+      {
+        "type": "domain",
+        "value": "healgesty0-arvchecbkg.com",
+        "confidence": "high",
+        "description": "Malware detected from this domain",
+        "firstseen": "2024-01-18",
+        "lastseen": "2024-03-11",
+        "source": "dns_monitoring"
+      },
+      {
+        "type": "domain",
+        "value": "playpinkycraft.com",
+        "confidence": "high",
+        "description": "Exfiltration domain disguised as telemetry API used by infostealer malware",
+        "firstseen": "2024-01-18",
+        "lastseen": "2024-03-11",
+        "source": "dns_monitoring"
+      },
+      {
+        "type": "domain",
+        "value": "anydomen.info",
+        "confidence": "high",
+        "description": "Sliver C2 framework server abused by threat actor for persistent access",
+        "firstseen": "2024-01-18",
+        "lastseen": "2024-03-11",
+        "source": "dns_monitoring"
+      },
+      {
+        "type": "ip",
+        "value": "71.6.232.24",
+        "confidence": "high",
+        "description": "Hosting infrastructure for QakBot malware distribution",
+        "firstseen": "2024-01-18",
+        "lastseen": "2024-03-11",
+        "source": "dns_monitoring"
+      },
+      {
+        "type": "domain",
+        "value": "vrfideyoidnty.com",
+        "confidence": "high",
+        "description": "Trojanized software update package delivering RAT payload",
+        "firstseen": "2024-01-18",
+        "lastseen": "2024-03-11",
+        "source": "dns_monitoring"
       }
     ]
   }
